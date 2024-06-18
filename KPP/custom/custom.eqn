@@ -172,6 +172,7 @@ CH3CCl3    = IGNORE; {CH3CCl3; Methyl chloroform}
 CH3CHOO    = IGNORE; {CH3CHOO; Criegee intermediate}
 CH3Cl      = IGNORE; {CH3Cl; Chloromethane}
 CH3I       = IGNORE; {CH3I; Methyl iodide}
+CH3CN      = IGNORE; {CH3CN; Acetonitrile}
 CH4        = IGNORE; {CH4; Methane}
 CHBr3      = IGNORE; {CHBr3; Tribromethane}
 CHCl3      = IGNORE; {CHCl3; Chloroform}
@@ -213,6 +214,7 @@ HCFC142b   = IGNORE; {C(CH3)ClF2; HCFC-142b, R-142b, Freon 142b}
 HCFC22     = IGNORE; {CHClF2 ; HCFC-22, R-22, Freon 22}
 HCl        = IGNORE; {HCl; Hydrochloric acid}
 HCOOH      = IGNORE; {HCOOH; Formic acid}
+HCN        = IGNORE; {HCN; Hydrogen cyanide}
 HI         = IGNORE; {HI; Hydrogen iodide}
 HMHP       = IGNORE; {HOCH2OOH; Hydroxymethyl hydroperoxide}
 HMML       = IGNORE; {C4H6O3; Hydroxymethyl-methyl-a-lactone}
@@ -1416,6 +1418,9 @@ XRO2 + HO2 = HO2 + LXRO2H :                  GCARR_ac(1.40d-12, 700.0d0);       
 XRO2 + NO  = NO + LXRO2N  :                  GCARR_ac(2.60d-12, 350.0d0);                                                      {2021/09/29; Bates2021b; KHB,MSL}
 MO2  + NO3 = NO2 + CH2O + HO2 :              1.20d-12;                                                                         {2022/10/18: IUPAC ROO_19; KHB,BMY}
 FURA + OH = BUTDI :                          GCARR_ac(1.32d-11, 334.0d0);                                                      {2023/02/07; Carter2022; TSC}
+CH3CN + OH = products :                      GCARR_ac(8.10d-13, -1080.0d0);                                                      {2024/xx/xx; Palmo2024; JOP}
+HCN + OH = products :                        GCARR_ac(1.20d-13, -400.0d0);                                                      {2024/xx/xx; Palmo2024; JOP}
+
 //
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 // %%%%% Heterogeneous chemistry reactions                               %%%%%
