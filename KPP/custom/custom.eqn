@@ -1418,8 +1418,8 @@ XRO2 + HO2 = HO2 + LXRO2H :                  GCARR_ac(1.40d-12, 700.0d0);       
 XRO2 + NO  = NO + LXRO2N  :                  GCARR_ac(2.60d-12, 350.0d0);                                                      {2021/09/29; Bates2021b; KHB,MSL}
 MO2  + NO3 = NO2 + CH2O + HO2 :              1.20d-12;                                                                         {2022/10/18: IUPAC ROO_19; KHB,BMY}
 FURA + OH = BUTDI :                          GCARR_ac(1.32d-11, 334.0d0);                                                      {2023/02/07; Carter2022; TSC}
-CH3CN + OH = products :                      GCARR_ac(8.10d-13, -1080.0d0);                                                      {2024/xx/xx; Palmo2024; JOP}
-HCN + OH = products :                        GCARR_ac(1.20d-13, -400.0d0);                                                      {2024/xx/xx; Palmo2024; JOP}
+CH3CN + OH = H2O :                      GCARR_ac(8.10d-13, -1080.0d0);                                                      {2024/xx/xx; Palmo2024; JOP}
+HCN + OH = H2O :                        GCARR_ac(1.20d-13, -400.0d0);                                                      {2024/xx/xx; Palmo2024; JOP}
 
 //
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
